@@ -3,7 +3,6 @@
   $rand = rand(1,100);
  } else {
   $min = $_GET['min'];
-  var_dump($min);
   $max = $_GET['max'];
   $rand = rand("$min","$max");
  }
